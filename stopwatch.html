@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+    <link rel="stylesheet" href="stopwatch.css">
+</head>
+<body>
+    <div class="stopwatch" id="stopwatch">
+        <div class="stopwatchtime" id="stopwatchtime">
+            <h1 class="display_time">
+                <span id="hour"></span>:
+                <span id="min"></span>:
+                <span id="sec"></span>:
+                <span id="milSec"></span>
+            </h1>
+        </div>
+        <div class="buttons">
+            <button class="btn material-symbols-outlined" onclick="reset()">restart_alt</button>
+            <button class="btn material-symbols-outlined" onclick="pause()">pause</button>
+            <button class="btn material-symbols-outlined" onclick="play()">play_arrow</button>
+            <!-- <button class="btn material-symbols-outlined" >screenshot</button> -->
+        </div>
+    </div>
+    <script src="stopwatch.js"></script>
+</body>
+</html>

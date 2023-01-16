@@ -1,0 +1,43 @@
+body{
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.stopwatch{
+    width: 350px;
+    height: 600px;
+    background-color: antiquewhite;
+    border-radius: 20px;
+    position: relative;
+}
+.stopwatchtime{
+    width: 250px;
+    height: 250px;
+    background-color: black;
+    border-radius: 50%;
+    position: absolute;
+    left: 50px;
+    top: 25px;
+}
+.display_time{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 85px;
+    color: antiquewhite;
+    font-size: 32px;
+}
+.buttons{
+    position: relative;
+    top: 500px;
+    display: flex;
+    justify-content: center;
+}
+.btn{
+    background-color: antiquewhite;
+    border: none;
+    font-size: 32px;
+    cursor: pointer;
+    padding: 5px;
+}
