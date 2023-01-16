@@ -28,6 +28,9 @@ body{
     color: antiquewhite;
     font-size: 32px;
 }
+#milSec{
+    width: 30px;
+}
 .buttons{
     position: relative;
     top: 500px;

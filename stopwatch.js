@@ -45,7 +45,7 @@ function stopwatch() {
         if (seconds === 60) {
             seconds = 0;
             minuts = minuts + 1;
-            min.innerHTML = seconds
+            min.innerHTML = minuts
         }
         if (minuts === 60) {
             minuts = 0;
