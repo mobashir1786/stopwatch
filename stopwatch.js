@@ -16,6 +16,7 @@ milSec.innerHTML = miliSecond
 
 
 const reset = () => {
+    startStop = false;
     hours = 0;
     minuts = 0;
     seconds = 0;
